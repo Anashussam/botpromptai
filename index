@@ -3,69 +3,175 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>BotPromptAI.com — For Sale</title>
+  <title>BotPromptAI.com — Premium Domain for Sale | AI & Prompt Marketplace</title>
+  <meta name="description" content="Own the premium domain BotPromptAI.com - Perfect for AI prompt marketplaces, chatbot platforms, and AI tools. Act now to secure this valuable digital asset.">
   <style>
+    :root {
+      --primary: #00f2ff;
+      --primary-dark: #00cfd1;
+      --secondary: #6e00ff;
+      --dark: #0f0f0f;
+      --darker: #1a1a2e;
+    }
+    
     body {
       margin: 0;
       padding: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(135deg, #0f0f0f, #1a1a2e);
+      font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, var(--dark), var(--darker));
       color: white;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      height: 100vh;
+      min-height: 100vh;
       text-align: center;
+      line-height: 1.6;
+    }
+
+    .container {
+      padding: 2rem;
+      max-width: 800px;
+      animation: fadeIn 1s ease-in-out;
     }
 
     h1 {
-      font-size: 3rem;
-      color: #00f2ff;
-      margin-bottom: 1rem;
+      font-size: 3.5rem;
+      background: linear-gradient(90deg, var(--primary), var(--secondary));
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      margin-bottom: 1.5rem;
+      line-height: 1.2;
+    }
+
+    .highlight {
+      display: inline-block;
+      padding: 0.2rem 0.5rem;
+      background: rgba(0, 242, 255, 0.2);
+      border-radius: 4px;
+      border-left: 3px solid var(--primary);
     }
 
     p {
-      font-size: 1.2rem;
-      max-width: 600px;
+      font-size: 1.3rem;
       margin-bottom: 2rem;
+      color: #e0e0e0;
+    }
+
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      margin: 2rem 0;
+    }
+
+    .feature {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 1rem 1.5rem;
+      border-radius: 8px;
+      border: 1px solid rgba(0, 242, 255, 0.2);
+      transition: transform 0.3s;
+    }
+
+    .feature:hover {
+      transform: translateY(-5px);
+    }
+
+    .btn-group {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      flex-wrap: wrap;
     }
 
     .btn {
-      background-color: #00f2ff;
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
       color: #000;
-      padding: 15px 30px;
+      padding: 16px 32px;
       border: none;
       border-radius: 8px;
-      font-size: 1rem;
+      font-size: 1.1rem;
       text-decoration: none;
       font-weight: bold;
-      transition: 0.3s;
+      transition: all 0.3s;
+      box-shadow: 0 4px 15px rgba(0, 242, 255, 0.3);
     }
 
     .btn:hover {
-      background-color: #00cfd1;
-      transform: scale(1.05);
+      transform: translateY(-3px);
+      box-shadow: 0 6px 20px rgba(0, 242, 255, 0.4);
+    }
+
+    .btn-secondary {
+      background: transparent;
+      color: var(--primary);
+      border: 2px solid var(--primary);
+    }
+
+    .btn-secondary:hover {
+      background: rgba(0, 242, 255, 0.1);
     }
 
     footer {
-      position: absolute;
-      bottom: 10px;
+      margin-top: 3rem;
       font-size: 0.9rem;
       color: #999;
     }
+
+    .urgency {
+      color: #ff6b6b;
+      font-weight: bold;
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes pulse {
+      0% { opacity: 1; }
+      50% { opacity: 0.7; }
+      100% { opacity: 1; }
+    }
+
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 2.5rem;
+      }
+      p {
+        font-size: 1.1rem;
+      }
+    }
   </style>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <h1>BotPromptAI.com</h1>
-  <p>This premium domain is available for sale.  
-  Perfect for AI prompt marketplaces, tools, and bots.  
-  Don't miss the chance to own it!</p>
-  
-  <a href="https://www.afternic.com/domain/botpromptai.com" target="_blank" class="btn">Buy Now</a>
-
-  <footer>© 2025 BotPromptAI.com — All rights reserved</footer>
+  <div class="container">
+    <h1>BotPromptAI.com</h1>
+    <p class="highlight">Premium AI Domain for Sale</p>
+    
+    <p>Secure this <strong>high-value domain</strong> perfect for your AI prompt marketplace, chatbot platform, or next-generation AI tools. A memorable brand name that instantly communicates your business focus.</p>
+    
+    <div class="features">
+      <div class="feature">✅ Brandable & Memorable</div>
+      <div class="feature">✅ Perfect for AI Startups</div>
+      <div class="feature">✅ Strong SEO Potential</div>
+      <div class="feature">✅ Instant Credibility</div>
+    </div>
+    
+    <p><span class="urgency">Limited Time Offer:</span> This domain won't be available for long. Serious inquiries only.</p>
+    
+    <div class="btn-group">
+      <a href="https://www.afternic.com/domain/botpromptai.com" target="_blank" class="btn">Buy Now</a>
+      <a href="mailto:your@email.com?subject=BotPromptAI.com Inquiry" class="btn btn-secondary">Contact Owner</a>
+    </div>
+    
+    <footer>© 2025 BotPromptAI.com — All rights reserved</footer>
+  </div>
 
 </body>
 </html>
